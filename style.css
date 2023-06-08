@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    height: 200px;
+    line-height: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    justify-content: center;
+}
+
+/*
+    PC: >= 1024px
+    tablet: >=740px & < 1024px
+    moblie: >740px 
+*/
+
+/* BREAK POINT */
+
+@media(min-width:1024px){
+    .pc{
+        display: block ;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .tablet{
+        display: block ;
+    }
+}
+
+@media(max-width:740px){
+    .mobile{
+        display: block ;
+    }
+}
